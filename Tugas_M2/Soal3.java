@@ -1,7 +1,11 @@
 package Tugas_M2;
 
 /**
- * @author Zulkifli
+ * <h1>Soal 3</h1>
+ * <b> comparing what's the different declaring a constant
+ * in a method or as a method.
+ * <b>modified by Raihan Fuad Syakir</b>
+ * @author Dosen Pengampu
  * @version 1.0
  * @since 11-02-2022
  */
@@ -20,7 +24,7 @@ public class Soal3 {
      */
     public static void CallConstant() {
         System.out.println("Paper size in centimeters: " + paperWidth *
-                CM_PER_INCH + " by " + paperHeight * CM_PER_INCH2); // can be seen the CM_PER_INCH2 can be called
+                CM_PER_INCH2 + " by " + paperHeight * CM_PER_INCH2); // can be seen the CM_PER_INCH2 can be called
                                                                     // by any method.
         System.out.println("Paper size in centimeters: " + paperWidth *
                 CM_PER_INCH + " by " + paperHeight * CM_PER_INCH);// while inside main cant because its local variable.
