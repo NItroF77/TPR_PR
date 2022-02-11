@@ -12,9 +12,9 @@ import java.io.*;
  * <b>Note:</b> Giving proper comments in your program makes it more
  * user friendly and it is assumed as a high quality code.
  * <p>
- * <b> using references from Mr.Zulkifli </b>
+ * <b> modified by Raihan Fuad Syakir </b>
  * 
- * @author Raihan
+ * @author Zulkifli
  * @version 1.0
  * @since 2022-02-09
  */
