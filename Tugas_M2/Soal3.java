@@ -22,13 +22,16 @@ public class Soal3 {
      * in a method can be called by any other method.
      * Any if the variable declared in a method it will just be a local variale.
      */
-    public static void CallConstant() {
+    public void CallConstant(double paperWidth, double paperHeight) {
+        
         System.out.println("Paper size in centimeters: " + paperWidth *
                 CM_PER_INCH2 + " by " + paperHeight * CM_PER_INCH2); // can be seen the CM_PER_INCH2 can be called
                                                                     // by any method.
+        /*
         System.out.println("Paper size in centimeters: " + paperWidth *
                 CM_PER_INCH + " by " + paperHeight * CM_PER_INCH);// while inside main cant because its local variable.
-    }
+        */
+        }
 
     /**
      * This is the main method of the program.
@@ -39,9 +42,11 @@ public class Soal3 {
      */
     public static void main(String[] args) {
         final double CM_PER_INCH = 2.54;
+        Soal3 obj = new Soal3();
         double paperWidth = 8.5;
         double paperHeight = 11;
         System.out.println("Paper size in centimeters: " + paperWidth *
                 CM_PER_INCH + " by " + paperHeight * CM_PER_INCH);
+        obj.CallConstant(paperWidth, paperHeight);
     }
 }
