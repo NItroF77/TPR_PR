@@ -44,15 +44,16 @@ public class Soal2 {
         Soal2 obj = new Soal2();
         long number;
         // create an object of Scanner
-        Scanner input = new Scanner(System.in);
-        for (byte i = 0; i <= 5; i++) {
-            try {
-                // take input from the user
-                number = input.nextLong();
-                obj.CheckDataType(number);
-            } catch (Exception e) {
-                System.out.println("can't be fitted anywhere.");
-                input.nextLine();
+        try (Scanner input = new Scanner(System.in)){
+            for (byte i = 0; i <= 5; i++) {
+                try {
+                    // take input from the user
+                    number = input.nextLong();
+                    obj.CheckDataType(number);
+                } catch (Exception e) {
+                    System.out.println("can't be fitted anywhere.");
+                    input.nextLine();
+                }
             }
         }
     }
