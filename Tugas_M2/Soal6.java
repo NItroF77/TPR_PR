@@ -3,6 +3,12 @@ package Tugas_M2;
 import java.util.Scanner; //to use input
 
 public class Soal6 {
+    /**
+     * This is the main method.
+     * where's both string A and B inputted.
+     * And Uppercasing the string.
+     * @param args unused.
+     */
     public static void main(String args[]) {
         // String myString = "Hello World!";
         try (Scanner input = new Scanner(System.in)) {

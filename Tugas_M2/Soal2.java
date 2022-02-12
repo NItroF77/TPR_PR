@@ -38,7 +38,7 @@ public class Soal2 {
      * This is the main method.
      * Here's where the input function located.
      * 
-     * @param args
+     * @param args unused.
      */
     public static void main(String args[]) {
         Soal2 obj = new Soal2();

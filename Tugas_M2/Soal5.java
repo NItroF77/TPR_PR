@@ -27,7 +27,7 @@ public class Soal5 {
      * The main method of class
      * here try an example of a data type converted into other.
      * 
-     * @param args
+     * @param args unused.
      */
     public static void main(String[] args) {
         double d = 126.5;

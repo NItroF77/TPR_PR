@@ -5,7 +5,8 @@ import java.io.*;
 /**
  * <h1>Soal 1</h1>
  * <b>Basic Calculator Two Numbers!</b>
- * The Basic_Calculator program implements an application that
+ * <p>
+ * The Basic Calculator program implements an application that
  * simply adds or substract two given integer numbers and Prints
  * the output on the screen.
  * <p>

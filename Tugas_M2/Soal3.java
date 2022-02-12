@@ -2,9 +2,10 @@ package Tugas_M2;
 
 /**
  * <h1>Soal 3</h1>
- * <b> comparing what's the different declaring a constant
+ * <b> comparing what's the different declaring a constant</b>
  * in a method or as a method.
  * <b>modified by Raihan Fuad Syakir</b>
+ * 
  * @author Dosen Pengampu
  * @version 1.0
  * @since 11-02-2022
@@ -21,6 +22,8 @@ public class Soal3 {
      * variable
      * in a method can be called by any other method.
      * Any if the variable declared in a method it will just be a local variale.
+     * @param paperWidth the width of the paper.
+     * @param paperHeight the height of the paper.
      */
     public void CallConstant(double paperWidth, double paperHeight) {
         
@@ -38,7 +41,7 @@ public class Soal3 {
      * Here declare a Constant called CM_PER_INCH as local
      * so when move to any other method that variabel cannot be called.
      * 
-     * @param args
+     * @param args unused.
      */
     public static void main(String[] args) {
         final double CM_PER_INCH = 2.54;
