@@ -1,6 +1,6 @@
 package Tugas_M2;
 
-import java.util.Scanner; //to use input
+import java.util.Scanner; //to use input.
 import java.lang.Math; //to use power function.
 
 /**
@@ -51,7 +51,7 @@ public class Soal2 {
                     number = input.nextLong();
                     obj.CheckDataType(number);
                 } catch (Exception e) {
-                    System.out.println("can't be fitted anywhere.");
+                   System.out.println(input.next()+" can't be fitted anywhere.");
                     input.nextLine();
                 }
             }
