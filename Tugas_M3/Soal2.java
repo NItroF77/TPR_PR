@@ -1,10 +1,5 @@
 import java.util.Scanner;
-/**
- *  <h1> Split a String into 2 part (String and Integer)</h1>
- * @author Raihan
- * @version 1
- * @since 20-02-2022
- */
+
 public class Soal2 {
     /**
      * This is method to printing out a splitted string by space
@@ -12,17 +7,16 @@ public class Soal2 {
      * 
      * @param word    String that will be printed.
      * @param numbers numbers that will be printed.
-     * 
      */
     public static void PrintOut(String word[], short numbers[]) {
         System.out.println("================================");
         for (int iterative = 0; iterative < 3; iterative++) {
             if (numbers[iterative] < 10) {
-                System.out.println(word[iterative] + " 00" + numbers[iterative]);
+                System.out.printf("%-15s00%d%n",word[iterative],numbers[iterative]);
             } else if (numbers[iterative] < 100) {
-                System.out.println(word[iterative] + " 0" + numbers[iterative]);
+                System.out.printf("%-15s0%d%n",word[iterative],numbers[iterative]);
             } else {
-                System.out.println(word[iterative] + " " + numbers[iterative]);
+                System.out.printf("%-15s%d%n",word[iterative],numbers[iterative]);
             }
         }
         System.out.println("================================");
