@@ -1,7 +1,16 @@
 import java.math.BigInteger;
 import java.util.Scanner;
-
+/**
+ * <h1> BigNumber</h1>
+ * @author Raihan
+ * @version 1
+ * @since 20-02-2022
+ */
 public class Soal6 {
+    /**
+     * The main method.
+     * @param args
+     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         BigInteger num1 = input.nextBigInteger();

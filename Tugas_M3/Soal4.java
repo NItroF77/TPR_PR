@@ -1,11 +1,14 @@
 import java.util.Scanner;
 /**
- * 
+ * <h1> Counting Salary an Agent</h1>
+ * @author Raihan
+ * @version 1
+ * @since 20-02-2022
  */
 public class Soal4 {
     /**
      * 
-     * @param items_sold
+     * @param items_sold items sold by the agent.
      * @return
      */
     public static int CheckSalary(byte items_sold){
@@ -25,7 +28,7 @@ public class Soal4 {
         }
     }
     /**
-     * 
+     * The main method.
      * @param args
      */
     public static void main(String[] args) {

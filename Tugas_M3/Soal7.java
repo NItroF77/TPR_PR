@@ -1,4 +1,11 @@
 public class Soal7 {
+/**
+ * <h1> Array</h1>
+ * <b> modified by Raihan Fuad Syakir</b>
+ * @author Dosen Pengampu
+ * @version 1
+ * @since 20-02-2022
+ */
     public static void main(String[] args){
         //One Dimensional Arrays
         int[] fisrtArray = {2, 5, 3};

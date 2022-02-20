@@ -1,5 +1,10 @@
 import java.util.Scanner;
-
+/**
+ * <h1> Close Open Traffic</h1>
+ * @author Raihan
+ * @version 1
+ * @since 20-02-2022
+ */
 public class Soal5 {
     public static boolean Check_Total_Number(long sum){
         final int num_min = 999999;
@@ -10,6 +15,10 @@ public class Soal5 {
             return true;
         }
     }
+    /**
+     * The main method.
+     * @param args
+     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         String Lines = input.nextLine();
