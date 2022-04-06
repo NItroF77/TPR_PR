@@ -24,7 +24,6 @@ public class ATM {
       cashDispenser = new CashDispenser(); // create cash dispenser
       depositSlot = new DepositSlot(); // create deposit slot
       bankDatabase = new BankDatabase(); // create acct info database
-      userExited = false; // user currently not want to exit
    }
 
    // start ATM 
@@ -76,11 +75,11 @@ public class ATM {
          // decide how to proceed based on user's menu selection
          switch (mainMenuSelection) {
             // user chose to perform one of three transaction types
-            case BALANCE_INQUIRY: currentTransaction = createTransaction(1);
+            case BALANCE_INQUIRY: currentTransaction = createTransaction(BALANCE_INQUIRY);
             	break;
-            case WITHDRAWAL: currentTransaction = createTransaction(2);
+            case WITHDRAWAL: currentTransaction = createTransaction(WITHDRAWAL);
             	break;
-            case DEPOSIT: currentTransaction = createTransaction(3);
+            case DEPOSIT: currentTransaction = createTransaction(DEPOSIT);
                 
             break;    
             case EXIT: // user chose to terminate session
